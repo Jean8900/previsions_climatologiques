@@ -18,11 +18,11 @@ On peut ainsi obtenir des prévisions :
 
 - **Spatiales / ponctuelles** :
 
-![Exemple sortie ERA5](photos/Exemple_typique_sortie_ERA5_moyenne_mensuelle.jpg)
+<img src="photos/Exemple_typique_sortie_ERA5_moyenne_mensuelle.jpg" width="600">
+
 
 - **Passé vs Futur** :
-
-![Exemple sortie WorldClim](photos/Exemple_typique_sortie_Wordclim.jpg)
+<img src="photos/Exemple_typique_sortie_Wordclim.jpg" width="600">
 
 - **Versioning** : migration des codes de Python 3.8 à 3.11
 - **Ajout de nouvelles bases de données** complémentaires
@@ -41,14 +41,29 @@ Application de l'algorithme à 3 cas d'études :
 ### Madagascar
 Estimation de l'évolution du débit d'une nappe phréatique majeure.
 
-![Madagascar]<img src="photos/madagascar.jpg" width="400">
+<img src="photos/madagascar.jpg" width="600">
 
 ### Panama
 Analyse de l'intensification des années sèches au Canal de Panama. Enjeu crucial : suite à la sécheresse exceptionnelle de 2023, le commerce mondial transitant par Panama (5% du commerce mondial) a été limité. Le canal fonctionne avec un système d'écluses très gourmand en eau.
 
-![Canal de Panama](photos/canal_panama.jpg)
+<img src="photos/canal_panama.jpg" width="600">
+
 
 ### Bosnie
 Estimation de l'évolution des capacités hydroélectriques bosnienNes : **-20% d'ici 2050** due à une baisse du débit disponible. Information importante dans le cadre de la décarbonation de l'électricité bosnienne (40% hydroélectrique, le reste provenant encore largement des énergies fossiles dont le charbon).
 
-![Barrage de Jablanica](photos/barrage_jablanica.jpg)
+<img src="photos/barrage_jablanica.jpg" width="600">
+
+
+Voici une proposition de conclusion :
+
+## Conclusion
+
+Ce projet illustre l'importance croissante des outils d'analyse climatologique dans la gestion des ressources en eau. La capacité à anticiper les évolutions hydrologiques devient un facteur décisif pour l'adaptation aux changements climatiques, que ce soit pour l'approvisionnement en eau potable, l'irrigation agricole ou la production hydroélectrique.
+
+Les trois cas d'études (Madagascar, Panama, Bosnie) démontrent la polyvalence de ces outils et leur pertinence à l'échelle internationale pour éclairer des décisions stratégiques majeures.
+
+---
+
+*Note : Par souci de confidentialité, le code source et les détails techniques approfondis des études ne peuvent être partagés publiquement. Ces outils constituent un avantage concurrentiel pour la SCP face à d'autres firmes ne disposant pas de solution clé en main pour l'analyse précise de la climatologie future d'un lieu donné. Ces analyses sont d'ailleurs de plus en plus sollicitées lors des appels d'offres, soulignant leur valeur stratégique.*
+
