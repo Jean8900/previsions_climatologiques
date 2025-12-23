@@ -1,0 +1,10 @@
+name: previsions_climatologiques
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - cartopy
+  - matplotlib
+  - numpy
+  - jupyter
