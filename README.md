@@ -41,7 +41,7 @@ Application de l'algorithme à 3 cas d'études :
 ### Madagascar
 Estimation de l'évolution du débit d'une nappe phréatique majeure.
 
-![Madagascar](photos/madagascar.jpg)
+![Madagascar]<img src="photos/madagascar.jpg" width="400">
 
 ### Panama
 Analyse de l'intensification des années sèches au Canal de Panama. Enjeu crucial : suite à la sécheresse exceptionnelle de 2023, le commerce mondial transitant par Panama (5% du commerce mondial) a été limité. Le canal fonctionne avec un système d'écluses très gourmand en eau.
