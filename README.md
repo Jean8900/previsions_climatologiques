@@ -12,7 +12,7 @@ Il existe des bases de données issues des simulations ayant servi au GIEC (Worl
 
 ## Tâches
 
-- **Prise en main des codes** (1 par base de données) : apprentissage des notions de projections cartographiques "de la terre boule à une carte plane" (bibliothèque Cartopy), compréhension des différents scénarios climatiques et trajectoires d'émission SSP/RCP.
+- **Prise en main des codes** (1 par base de données) : apprentissage des notions de projections cartographiques "de la terre boule à une carte plane" (bibliothèque Cartopy), compréhension des différents scénarios climatiques et trajectoires d'émission SSP/RCP. *Le code interne est confidentiel, mais [ce script d'illustration](Illustration_projections/Illustration_projections.py) permet d'intuiter l'importance du choix de projection : aucune carte n'est "vraie", il y a différentes manières de représenter la Terre et on choisit la plus adaptée au cas d'étude.*
 
 On peut ainsi obtenir des prévisions :
 
@@ -20,8 +20,8 @@ On peut ainsi obtenir des prévisions :
 
 <img src="photos/Exemple_typique_sortie_ERA5_moyenne_mensuelle.jpg" width="600">
 
-
 - **Passé vs Futur** :
+
 <img src="photos/Exemple_typique_sortie_Wordclim.jpg" width="600">
 
 - **Versioning** : migration des codes de Python 3.8 à 3.11
@@ -48,14 +48,10 @@ Analyse de l'intensification des années sèches au Canal de Panama. Enjeu cruci
 
 <img src="photos/canal_panama.jpg" width="600">
 
-
 ### Bosnie
 Estimation de l'évolution des capacités hydroélectriques bosnienNes : **-20% d'ici 2050** due à une baisse du débit disponible. Information importante dans le cadre de la décarbonation de l'électricité bosnienne (40% hydroélectrique, le reste provenant encore largement des énergies fossiles dont le charbon).
 
 <img src="photos/barrage_jablanica.jpg" width="600">
-
-
-Voici une proposition de conclusion :
 
 ## Conclusion
 
@@ -66,4 +62,3 @@ Les trois cas d'études (Madagascar, Panama, Bosnie) démontrent la polyvalence 
 ---
 
 *Note : Par souci de confidentialité, le code source et les détails techniques approfondis des études ne peuvent être partagés publiquement. Ces outils constituent un avantage concurrentiel pour la SCP face à d'autres firmes ne disposant pas de solution clé en main pour l'analyse précise de la climatologie future d'un lieu donné. Ces analyses sont d'ailleurs de plus en plus sollicitées lors des appels d'offres, soulignant leur valeur stratégique.*
-
